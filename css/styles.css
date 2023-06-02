@@ -1,0 +1,105 @@
+/*Color Palette */
+/* https://coolors.co/  */
+/*
+https://coolors.co/e0e0e2-81d2c7-b5bad0-7389ae-416788
+#e0e0e2 - platinum (light)
+#81d2c7 - tiffany blue (like seafoam)
+#b5bad0 - french gray
+#7389ae - glaucous (slightly less dark)
+#416788 - lapis lazuli (darkest)
+*/
+
+/* Get RGB value from this site: https://www.webfx.com/web-design/hex-to-rgb/ */
+
+
+/* --------------Global styles ---------------------------- */
+
+body{
+    color: #416788;
+    margin: row;
+    padding: 0;
+    font-family: 'Playfair', serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #7389ae;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.work-experience {
+    background: #81d2c7;
+}
+/* --------------Profile ---------------------------- */
+
+header{
+    background: #416788;
+    color:  #e0e0e2;
+}
+
+/* --------------Projects ---------------------------- */
+
+.projects {
+    background: #e0e0e2;
+}
+
+.projects .btn {
+    color:  #e0e0e2;
+    background: #81d2c7;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(129,210,199,80%);
+}
+
+/* --------------Work Experience ---------------------------- */
+
+.work-experience{
+    background: #81d2c7;
+}
+
+
+/* --------------Education ---------------------------- */
+
+
+
+/* --------------Contact Info ---------------------------- */
+
+footer {
+    background: #b5bad0; 
+    color:  #e0e0e2;
+}
